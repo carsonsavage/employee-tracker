@@ -3,9 +3,9 @@ const chalk = require('chalk');
 
 connection = mysql.createConnection({
     host: 'localhost',
-    port: 3300,
+    port: 3306,
     user: 'root',
-    password: 'root',
+    password: 'password',
     database: 'employee_db',
     multipleStatements: true
 });
